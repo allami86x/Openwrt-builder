@@ -24,17 +24,16 @@
 
 **روش ۱ - کلون کردن ریپازیتوری:**
 ```bash
-git clone <آدرس این ریپازیتوری>
-cd <نام ریپازیتوری>
+git clone <https://github.com/allami86x/Openwrt-builder/>
+cd <Openwr-Builder>
 chmod +x setup_openwrt_passwall.sh
 ./setup_openwrt_passwall.sh
 ```
 
 **روش ۲ - اجرای مستقیم با یک خط دستور:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USERNAME/REPO/main/setup_openwrt_passwall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/allami86x/Openwrt-builder/main/setup_openwrt_passwall.sh | bash
 ```
-(به‌جای `USERNAME/REPO` آدرس ریپازیتوری خودت رو جایگزین کن)
 
 ⚠️ قبل از اجرای مستقیم با `curl | bash`، بهتره یه‌بار خودِ فایل رو بخونی. این روش یعنی هرچی الان توی اون لینک باشه، بدون بازبینی روی سیستمت اجرا می‌شه.
 
@@ -77,9 +76,8 @@ chmod +x setup_openwrt_passwall.sh
 
 **Option 2 - run directly with a one-liner:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USERNAME/REPO/main/setup_openwrt_passwall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/allami86x/Openwrt-builder/main/setup_openwrt_passwall.sh | bash
 ```
-(replace `USERNAME/REPO` with your actual repository path)
 
 ⚠️ Before running it directly via `curl | bash`, it's worth reading the script once. This method executes whatever is currently at that URL without review.
 
