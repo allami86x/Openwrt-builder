@@ -68,8 +68,8 @@ Each step is checked after it runs; if any step fails, the script stops with a c
 
 **Option 1 - clone the repo:**
 ```bash
-git clone <this repo's URL>
-cd <repo name>
+git clone <https://github.com/allami86x/Openwrt-builder>
+cd <Openwrt-builder>
 chmod +x setup_openwrt_passwall.sh
 ./setup_openwrt_passwall.sh
 ```
